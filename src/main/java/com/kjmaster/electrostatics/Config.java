@@ -47,11 +47,6 @@ public class Config
             .comment("Toggle being able to obtain resin with the treetap, this mod's treetap is fairly overpowered and makes it easy to obtain rubber so if another mod adds a way to obtain rubber it is recommended you disable the treetap")
             .define("is_tap_enabled", true);
 
-    private static final ForgeConfigSpec.IntValue TAP_DURABILITY = BUILDER
-            .comment("The durability of the treetap")
-            .defineInRange("tap_durability", 21, 1, Integer.MAX_VALUE);
-
-
     static final ForgeConfigSpec SPEC = BUILDER.build();
 
     public static long staticGeneratorMaxCapacity;
@@ -63,7 +58,6 @@ public class Config
     public static long staticGeneratorZRange;
     public static long staticGeneratorMaxEntities;
     public static boolean isTapEnabled;
-    public static int tapDurability;
 
     @SubscribeEvent
     static void onLoad(final ModConfigEvent event)
@@ -77,6 +71,5 @@ public class Config
         staticGeneratorZRange = STATIC_GENERATOR_Z_RANGE.get();
         staticGeneratorMaxEntities = STATIC_GENERATOR_MAX_ENTITIES.get();
         isTapEnabled = IS_TAP_ENABLED.get();
-        tapDurability = TAP_DURABILITY.get();
     }
 }

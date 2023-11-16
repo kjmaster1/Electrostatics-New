@@ -8,18 +8,15 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.NotNull;
 
-import static com.kjmaster.electrostatics.Config.tapDurability;
-
 public class TreeTapItem extends BaseItem {
 
     public TreeTapItem() {
-        super(new Item.Properties().durability(tapDurability));
+        super(new Item.Properties().durability(21));
     }
 
     @Override
