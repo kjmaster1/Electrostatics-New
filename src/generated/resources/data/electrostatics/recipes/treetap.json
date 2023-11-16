@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": [
+    " i ",
+    "iii",
+    "i  "
+  ],
+  "result": {
+    "item": "electrostatics:treetap"
+  },
+  "show_notification": true
+}

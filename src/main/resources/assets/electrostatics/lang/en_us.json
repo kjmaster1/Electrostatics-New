@@ -1,0 +1,16 @@
+{
+  "item.electrostatics.resin": "Resin",
+  "item.electrostatics.rubber": "Rubber",
+  "item.electrostatics.treetap": "Treetap",
+  "item.electrostatics.rubber_boots": "Rubber Boots",
+
+  "block.electrostatics.static_generator": "Static Generator",
+
+  "message.electrostatics.shiftmessage": "<Press Shift>",
+
+  "message.electrostatics.static_generator.header": "This machine produces RF/FE from nearby entities moving on carpet wearing rubber boots",
+  "message.electrostatics.static_generator.gold": "Tip: The more entities around the more RF/FE generated! (up to the max)",
+  "message.electrostatics.static_generator.info": "Producing: ",
+
+  "itemGroup.electrostatics": "Electrostatics"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "forge:ingots/copper"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "f": {
+      "item": "minecraft:furnace"
+    },
+    "s": {
+      "tag": "forge:stone"
+    },
+    "u": {
+      "tag": "forge:rubber"
+    }
+  },
+  "pattern": [
+    "CRC",
+    "ufu",
+    "sus"
+  ],
+  "result": {
+    "item": "electrostatics:static_generator"
+  },
+  "show_notification": true
+}

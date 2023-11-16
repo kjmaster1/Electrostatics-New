@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "electrostatics:block/static_generator" },
+    "facing=south": { "model": "electrostatics:block/static_generator", "y": 180 },
+    "facing=west": { "model": "electrostatics:block/static_generator", "y": 270 },
+    "facing=east": { "model": "electrostatics:block/static_generator", "y": 90 },
+    "facing=up": { "model": "electrostatics:block/static_generator", "x": -90 },
+    "facing=down": { "model": "electrostatics:block/static_generator", "x": 90 }
+  }
+}

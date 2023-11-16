@@ -1,0 +1,11 @@
+window {
+    size(180,152)
+
+    panel('','positional') {
+        bg1('electrostatics:textures/gui/static_generator.png')
+        energybar('energybar') {
+            hint(10,7,8,54)
+            showtext(false)
+        }
+    }
+}

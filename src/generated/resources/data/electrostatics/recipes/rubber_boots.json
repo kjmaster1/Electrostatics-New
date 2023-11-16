@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "u": {
+      "tag": "forge:rubber"
+    }
+  },
+  "pattern": [
+    "u u",
+    "u u"
+  ],
+  "result": {
+    "item": "electrostatics:rubber_boots"
+  },
+  "show_notification": true
+}
